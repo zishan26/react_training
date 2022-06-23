@@ -26,6 +26,10 @@ class Counter extends Component{
                     onClick={(product) => this.handleIncrement(product)}
                     className="btn btn-secondary btn-sm">Increment
                 </button>
+                <button
+                    onClick={this.handleDelete}
+                    className="btn btn-danger btn-sm m-2">Delete
+                </button>
                 
                 
             </div>
